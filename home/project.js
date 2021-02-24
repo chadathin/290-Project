@@ -11,10 +11,6 @@ app.get('/', function(req, res) {
     res.render('home');
 });
 
-app.get('/other-page', function(req, res) {
-    res.render('other-page');
-});
-
 app.get('/faam', function(req, res){
   res.render('faam')
 });
@@ -25,20 +21,6 @@ app.get('/koos', function(req, res){
 
 app.get('/uwri', function(req, res){
   res.render('uwri')
-});
-
-function genContext() {
-    var stuffToDisplay = {};
-    stuffToDisplay.time = (new Date(Date.now())).toLocaleTimeString('en-US');
-    return stuffToDisplay;
-}
-
-app.get('/time', function(req, res) {
-    res.render('time', genContext());
-});
-
-app.get('/test', function(req, res) {
-    res.render('test');
 });
 
 app.use(express.static("assets"));
