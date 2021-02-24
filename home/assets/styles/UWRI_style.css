@@ -1,0 +1,43 @@
+.description {
+    text-align: center;
+}
+
+.question .activity {
+    margin-top: 30px;
+    background-color: darkgrey;
+    font-weight: bold;
+}
+
+#title {
+    text-align: center;
+}
+
+/* .answer {
+    text-align: center;
+} */
+
+/* [type='radio'] {
+    display: none;
+} */
+
+/* #adl_header {
+    background-color: darkgrey;
+    text-align: center;
+} */
+
+#footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+/* #scoring_link {
+    align: bottom;
+} */
+
+#result {
+    min-height: 60px;
+}

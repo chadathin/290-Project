@@ -19,6 +19,14 @@ app.get('/faam', function(req, res){
   res.render('faam')
 });
 
+app.get('/koos', function(req, res){
+  res.render('koos')
+});
+
+app.get('/uwri', function(req, res){
+  res.render('uwri')
+});
+
 function genContext() {
     var stuffToDisplay = {};
     stuffToDisplay.time = (new Date(Date.now())).toLocaleTimeString('en-US');
@@ -34,10 +42,6 @@ app.get('/test', function(req, res) {
 });
 
 app.use(express.static("assets"));
-
-app.get('/assets/HOOS', function(req,res){
-  res.render('HOOS-JR-2017.pdf');
-});
 
 
 app.use(function(req, res) {
