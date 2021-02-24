@@ -15,6 +15,9 @@ app.get('/other-page', function(req, res) {
     res.render('other-page');
 });
 
+app.get('/faam', function(req, res){
+  res.render('faam')
+});
 
 function genContext() {
     var stuffToDisplay = {};

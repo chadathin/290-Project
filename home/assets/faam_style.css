@@ -1,0 +1,25 @@
+.description {
+    text-align: center;
+}
+
+.question .activity {
+    background-color: darkgrey;
+}
+
+#title {
+    text-align: center;
+}
+
+.answer {
+    text-align: center;
+}
+
+#adl_header {
+    background-color: darkgrey;
+    text-align: center;
+}
+
+#footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
