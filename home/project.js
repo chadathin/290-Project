@@ -7,6 +7,24 @@ app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 app.set('port', 3000);
 
+
+var bodyParser = require('body-parser');
+
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+app.post('/contact', function(req,res){
+  var send = [];
+  for (var p in req.body){
+    send.push({'name':v,'value':req.body[v]})
+  }
+  console.log(send);
+  console.log(req.body);
+  var out = {};
+  out.dataList = send;
+});
+
+
 app.get('/', function(req, res) {
     res.render('home');
 });
@@ -25,6 +43,10 @@ app.get('/odi', function(req, res){
 
 app.get('/uwri', function(req, res){
   res.render('uwri')
+});
+
+app.get('/contact', function(req, res){
+  res.render('contact')
 });
 
 app.use(express.static("assets"));
