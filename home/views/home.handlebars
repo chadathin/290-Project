@@ -7,49 +7,52 @@
 <div class="container">
 
   <!-- CAROUSEL ROW -->
-  <div class="row">
+  <div class="row" id="page_header">
+    <div class="jumbotron">
+      <h1>Functional Outcome Assessment Hub</h1>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
+        <div class="carousel-inner">
 
-      <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="pictures/two_men_working_out.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span>Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/personal-training?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+            </div>
+          </div>
 
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="pictures/two_men_working_out.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <p><span>Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/personal-training?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="pictures/lets_get_some_shoes.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span>Photo by <a href="https://unsplash.com/@bruno_nascimento?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Bruno Nascimento</a> on <a href="https://unsplash.com/s/photos/running?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="pictures/laptop.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <p><span>Photo by <a href="https://unsplash.com/@nci?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">National Cancer Institute</a> on <a href="https://unsplash.com/s/photos/doctor?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+            </div>
           </div>
         </div>
 
-        <div class="carousel-item">
-          <img class="d-block w-100" src="pictures/lets_get_some_shoes.jpg" alt="Second slide">
-          <div class="carousel-caption d-none d-md-block">
-            <p><span>Photo by <a href="https://unsplash.com/@bruno_nascimento?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Bruno Nascimento</a> on <a href="https://unsplash.com/s/photos/running?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
-          </div>
-        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
 
-        <div class="carousel-item">
-          <img class="d-block w-100" src="pictures/laptop.jpg" alt="Third slide">
-          <div class="carousel-caption d-none d-md-block">
-            <p><span>Photo by <a href="https://unsplash.com/@nci?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">National Cancer Institute</a> on <a href="https://unsplash.com/s/photos/doctor?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
-          </div>
-        </div>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
+
   </div>
 
 <!-- UNORDERED LIST OF LINKS -->
@@ -59,6 +62,7 @@
     <div class="col-lg">
       <div class="">
         <h3 class="middle-header">What is this?</h3>
+        <p>This is a small hub of of functional outcome assessments. These are typically used by physical therapists in an attempt to </p>
       </div>
     </div>
 
@@ -67,11 +71,10 @@
         <h3 class="middle-header">Available Assessments</h3>
       </div>
       <div class="list-group">
-        <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
         <a href="/koos" class="list-group-item list-group-item-action">KOOS JR</a>
         <a href="/faam" class="list-group-item list-group-item-action">Foot and Ankle Measure</a>
         <a href="/uwri" class="list-group-item list-group-item-action">University of Wisconson Running Injury Index</a>
-        <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+        <a href="/odi" class="list-group-item list-group-item-action">Oswestry Disability Index</a>
       </div>
     </div>
 
