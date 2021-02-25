@@ -1,4 +1,5 @@
 .activity {
+  /* margin-top:9px; */
   background-color: gray;
   color: white;
 }
@@ -7,7 +8,8 @@
   text-align: center;
 }
 
-.activity, .question {
+.activity, .question, .instructions {
   font-size: 1.2em;
   padding-left: 10px;
+  margin-top: 20px;
 }
