@@ -1,11 +1,20 @@
 .carousel .carousel-item {
-  height: 500px;
+  height: 600px;
+  width: 100%;
 }
 
-.carousel-item img {
+a {
+  color: white;
+}
+
+.middle-header {
+  text-align: center;
+}
+
+/* .carousel-item img {
     position: absolute;
     object-fit:cover;
     top: 0;
     left: 0;
     min-height: 500px;
-}
+} */

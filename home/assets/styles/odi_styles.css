@@ -1,0 +1,13 @@
+.activity {
+  background-color: gray;
+  color: white;
+}
+
+#title {
+  text-align: center;
+}
+
+.activity, .question {
+  font-size: 1.2em;
+  padding-left: 10px;
+}

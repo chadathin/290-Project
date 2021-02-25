@@ -19,6 +19,10 @@ app.get('/koos', function(req, res){
   res.render('koos')
 });
 
+app.get('/odi', function(req, res){
+  res.render('odi')
+});
+
 app.get('/uwri', function(req, res){
   res.render('uwri')
 });
