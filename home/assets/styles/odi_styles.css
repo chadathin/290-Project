@@ -12,6 +12,14 @@ input[type="radio"] {
   transform: scale(1.25);
 }
 
+#footer {
+  margin-top: 30px;
+}
+
+#get_form_button {
+  margin-bottom: 30px;
+}
+
 .activity, .question, .instructions {
   font-size: 1.2em;
   padding-left: 10px;

@@ -17,84 +17,206 @@
     <div class = "container" id = "body">
         <div class="row" id="instructions"><h3>Instructions</h3></div>
         <div class="row">
-            <div class = "col-lg instructions"><p>This survey asks for your view about your knee. This information will help us keep track of how you fell about your knee and how well you are able to do your usual activities. Answer every question by clicking the appropriate box, only one box per question. If you are unsure, just give the best answer you can.</p></div>
-
+            <div class = "col-lg instructions">
+              <p>
+                This survey asks for your view about your knee. This information will help us keep track of how you fell about your knee and how well you are able to do your usual activities. Answer every question by clicking the appropriate box, only one box per question. If you are unsure, just give the best answer you can.
+              </p>
+              <p>You can find more information about the KOOS JR, <a href="https://www.apta.org/patient-care/evidence-based-practice-resources/test-measures/knee-injury-and-osteoarthritis-outcome-score-for-joint-replacement-koos-jr" target="_blank">here</a>.</p>
+            </div>
         </div>
+    </div>
 
-    <div class = "container" id = "body">
-        <div class="row header" id="stiffness_header"><h3>Stiffness</h3></div>
+    <div class = "container" id = "questionnaire">
+        <div class="row header" id="stiffness_header">
+          <h3>Stiffness</h3>
+        </div>
 
         <div class="row question">
-            <div class = "col-lg-4 activity"/>1. How severe is your knee stiffness after first waking in the morning?</div>
-            <div class = "col-lg answer"><input type="radio" id="" name="waking" value = "0"/>None</div>
-            <div class = "col-lg answer"><input type="radio" id="" name="waking" value = "1"/>Mild</div>
-            <div class = "col-lg answer"><input type="radio" id="" name="waking" value = "2"/>Moderate</div>
-            <div class = "col-lg answer"><input type="radio" id="" name="waking" value = "3"/>Severe</div>
-            <div class = "col-lg answer"><input type="radio" id="" name="waking" value = "4"/>Extreme</div>
-        </div>
+            <h4>1. How severe is your knee stiffness after first waking in the morning?</h4>
+            <div class="btn-group" data-toggle="buttons">
 
+              <label class="btn btn-secondary" type="button" >
+                <input type="radio" autocomplete="off" name="waking" value = "0"/>None
+              </label>
 
-        <div class="row header" id="pain_header"><h3>Pain</h3>
-            <div class="col-lg"><p>What amount of knee pain have you experienced in the <b>last week</b> during the following activities?</p></div>
-        </div>
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="waking" value = "1"/>Mild
+              </label>
 
-        <div class = "row question">
-            <div class = "col-lg-4 activity">2. Twisting/Pivoting on your knee</div>
-            <div class="col-lg answer"><input type="radio" name="twisting" id="" value = "0"/>None</div>
-            <div class="col-lg answer"><input type="radio" name="twisting" id="" value = "1"/>Mild</div>
-            <div class="col-lg answer"><input type="radio" name="twisting" id="" value = "2"/>Moderate</div>
-            <div class="col-lg answer"><input type="radio" name="twisting" id="" value = "3"/>Severe</div>
-            <div class="col-lg answer"><input type="radio" name="twisting" id="" value = "4"/>Extreme</div>
-        </div>
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="waking" value = "2"/>Moderate
+              </label>
 
-        <div class = "row question">
-            <div class = "col-lg-4 activity">3. Straightening your knee fully</div>
-            <div class="col-lg answer"><input type="radio" name="straightening" id="" value = "0"/>None</div>
-            <div class="col-lg answer"><input type="radio" name="straightening" id="" value = "1"/>Mild</div>
-            <div class="col-lg answer"><input type="radio" name="straightening" id="" value = "2"/>Moderate</div>
-            <div class="col-lg answer"><input type="radio" name="straightening" id="" value = "3"/>Severe</div>
-            <div class="col-lg answer"><input type="radio" name="straightening" id="" value = "4"/>Extreme</div>
-        </div>
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="waking" value = "3"/>Severe
+              </label>
 
-        <div class = "row question">
-            <div class = "col-lg-4 activity">4. Going up or down stairs</div>
-            <div class="col-lg answer"><input type="radio" name="stairs" id="" value = "0"/>None</div>
-            <div class="col-lg answer"><input type="radio" name="stairs" id="" value = "1"/>Mild</div>
-            <div class="col-lg answer"><input type="radio" name="stairs" id="" value = "2"/>Moderate</div>
-            <div class="col-lg answer"><input type="radio" name="stairs" id="" value = "3"/>Severe</div>
-            <div class="col-lg answer"><input type="radio" name="stairs" id="" value = "4"/>Extreme</div>
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="waking" value = "4"/>Extreme
+              </label>
+
+            </div>
+          </div>
+
+        <div class="row header" id="pain_header">
+          <h3>Pain</h3>
+          <p>What amount of knee pain have you experienced in the <b>last week</b> during the following activities?</p>
         </div>
 
         <div class = "row question">
-            <div class = "col-lg-4 activity">5. Standing upright</div>
-            <div class="col-lg answer"><input type="radio" name="standing" id="" value = "0/">None</div>
-            <div class="col-lg answer"><input type="radio" name="standing" id="" value = "1/">Mild</div>
-            <div class="col-lg answer"><input type="radio" name="standing" id="" value = "2/">Moderate</div>
-            <div class="col-lg answer"><input type="radio" name="standing" id="" value = "3/">Severe</div>
-            <div class="col-lg answer"><input type="radio" name="standing" id="" value = "4/">Extreme</div>
+            <h4>2. Twisting/Pivoting on your knee</h4>
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-secondary" type="button" >
+                <input type="radio" autocomplete="off" name="twisting" value = "0"/>None
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="twisting" value = "1"/>Mild
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="twisting" value = "2"/>Moderate
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="twisting" value = "3"/>Severe
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="twisting" value = "4"/>Extreme
+              </label>
+            </div>
         </div>
 
-        <div class="row header" id="adl_header"><h3>Function and Activities of Daily Living</h3>
-            <div class="col-lg"><p>The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your knee.</p></div>
+        <div class = "row question">
+            <h4>3. Straightening your knee fully</h4>
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-secondary" type="button" >
+                <input type="radio" autocomplete="off" name="straightening" value = "0"/>None
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="straightening" value = "1"/>Mild
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="straightening" value = "2"/>Moderate
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="straightening" value = "3"/>Severe
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="straightening" value = "4"/>Extreme
+              </label>
+            </div>
+        </div>
+
+        <div class = "row question">
+            <h4>4. Going up or down stairs</h4>
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-secondary" type="button" >
+                <input type="radio" autocomplete="off" name="stairs" value = "0"/>None
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="stairs" value = "1"/>Mild
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="stairs" value = "2"/>Moderate
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="stairs" value = "3"/>Severe
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="stairs" value = "4"/>Extreme
+              </label>
+            </div>
+        </div>
+
+        <div class = "row question">
+            <h4>5. Standing upright</h4>
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-secondary" type="button" >
+                <input type="radio" autocomplete="off" name="standing" value = "0"/>None
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="standing" value = "1"/>Mild
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="standing" value = "2"/>Moderate
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="standing" value = "3"/>Severe
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="standing" value = "4"/>Extreme
+              </label>
+            </div>
+        </div>
+
+        <div class="row header" id="adl_header">
+          <h3>Function and Activities of Daily Living</h3>
+          <p>The following questions concern your physical function. By this we mean your ability to move around and to look after yourself. For each of the following activities please indicate the degree of difficulty you have experienced in the last week due to your knee.</p>
         </div>
 
 
         <div class = "row question">
-            <div class = "col-lg-4 activity">6. Rising from sitting</div>
-            <div class="col-lg answer"><input type="radio" name="rising" id="" value = "0"/>None</div>
-            <div class="col-lg answer"><input type="radio" name="rising" id="" value = "1"/>Mild</div>
-            <div class="col-lg answer"><input type="radio" name="rising" id="" value = "2"/>Moderate</div>
-            <div class="col-lg answer"><input type="radio" name="rising" id="" value = "3"/>Severe</div>
-            <div class="col-lg answer"><input type="radio" name="rising" id="" value = "4"/>Extreme</div>
+            <h4>6. Rising from sitting</h4>
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-secondary" type="button" >
+                <input type="radio" autocomplete="off" name="rising" value = "0"/>None
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="rising" value = "1"/>Mild
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="rising" value = "2"/>Moderate
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="rising" value = "3"/>Severe
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="rising" value = "4"/>Extreme
+              </label>
+            </div>
         </div>
 
         <div class = "row question">
-            <div class = "col-lg-4 activity">7. Bending to floor/pick up an object</div>
-            <div class="col-lg answer"><input type="radio" name="bending" id="" value = "0"/>None</div>
-            <div class="col-lg answer"><input type="radio" name="bending" id="" value = "1"/>Mild</div>
-            <div class="col-lg answer"><input type="radio" name="bending" id="" value = "2"/>Moderate</div>
-            <div class="col-lg answer"><input type="radio" name="bending" id="" value = "3"/>Severe</div>
-            <div class="col-lg answer"><input type="radio" name="bending" id="" value = "4"/>Extreme</div>
+            <h4>7. Bending to floor/pick up an object</h4>
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-secondary" type="button" >
+                <input type="radio" autocomplete="off" name="bending" value = "0"/>None
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="bending" value = "1"/>Mild
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="bending" value = "2"/>Moderate
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="bending" value = "3"/>Severe
+              </label>
+
+              <label class="btn btn-secondary" type="button">
+                <input type="radio" autocomplete="off" name="bending" value = "4"/>Extreme
+              </label>
+            </div>
         </div>
 
     </div>
@@ -113,15 +235,6 @@
             <div class="col-lg">
                 <form method="GET" action="paper_copies/KOOS-JR-2017.pdf" target="_blank">
                     <button class = "btn btn-primary" type="submit">Get Paper Copy!</button>
-                </form>
-            </div>
-            <div class="col-lg">
-                <form id = "email_form" action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
-
-                    <button type="submit" name="email_button" class="btn btn-primary">Email my results!</button>
-                    <br>
-                    <input type="text" name="" id="email_input" placeholder="Email Address">
-
                 </form>
             </div>
         </div>
