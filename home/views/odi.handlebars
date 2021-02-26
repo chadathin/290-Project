@@ -9,145 +9,349 @@
 </head>
 <body>
     <div class = "container" id = "header">
-        <div class = "row" id = "title">
-            <h1>Oswestry Disability Index (ODI)</h1>
-        </div>
-    </div>
-
-    <div class = "container" id = "body">
-
-        <div class="row instructions"><h3>Instructions</h3></div>
-        <div class="row">
-            <div class = "col-lg instructions"><p>This questionnaire has been designed to give us information as to how your back or leg pain is affecting your ability to manage in everyday life. Please answer by checking ONE box in each section for the statement which best applies to you. We realise you may consider that two or more statements in any one section apply but please just shade out the spot that indicates the statement which most clearly describes your problem.</p></div>
-        </div>
-    </div>
-
-    <div class="container" id = "questions">
-
-      <div class="row">
-        <div class="col-lg">
-          <div class="question">
-              <div class = "activity">1. Pain Intensity</div>
-              <div class = "answer"><input type="radio" id="" name="pain" value = "0"/> I have no pain at the moment</div>
-              <div class = "answer"><input type="radio" id="" name="pain" value = "1"/> The pain is very mild at the moment</div>
-              <div class = "answer"><input type="radio" id="" name="pain" value = "2"/> The pain is moderate at the moment</div>
-              <div class = "answer"><input type="radio" id="" name="pain" value = "3"/> The pain is fairly severe at the moment</div>
-              <div class = "answer"><input type="radio" id="" name="pain" value = "4"/> The pain is very severe at the moment</div>
-              <div class = "answer"><input type="radio" id="" name="pain" value = "5"/> The pain is the worst imaginable at the moment</div>
-          </div>
-
-          <div class = "question">
-              <div class = "activity">2. Personal Care (washing, dressing etc)</div>
-              <div class = "answer"><input type="radio" id="" name="personal_care" value = "0"/> I can look after myself normally without causing extra pain</div>
-              <div class = "answer"><input type="radio" id="" name="personal_care" value = "1"/> I can look after myself normally but it causes extra pain</div>
-              <div class = "answer"><input type="radio" id="" name="personal_care" value = "2"/> It is painful to look after myself and I am slow and careful</div>
-              <div class = "answer"><input type="radio" id="" name="personal_care" value = "3"/> I need some help but manage most of my personal care</div>
-              <div class = "answer"><input type="radio" id="" name="personal_care" value = "4"/> I need help every day in most aspects of self-care</div>
-              <div class = "answer"><input type="radio" id="" name="personal_care" value = "5"/> I do not get dressed, I wash with difficulty and stay in bed</div>
-          </div>
-
-          <div class = "question">
-            <div class = "activity">3. Lifting</div>
-            <div class = "answer"><input type="radio" id="" name="lifting" value = "0"/> I can lift heavy weights without extra pain</div>
-            <div class = "answer"><input type="radio" id="" name="lifting" value = "1"/> I can lift heavy weights but it gives extra pain</div>
-            <div class = "answer"><input type="radio" id="" name="lifting" value = "2"/> Pain prevents me from lifting heavy weights off the floor, but I can manage if they are conveniently placed eg. on a table</div>
-            <div class = "answer"><input type="radio" id="" name="lifting" value = "3"/> Pain prevents me from lifting heavy weights, but I can manage light to medium weights if they are conveniently positioned</div>
-            <div class = "answer"><input type="radio" id="" name="lifting" value = "4"/> I can lift very light weights</div>
-            <div class = "answer"><input type="radio" id="" name="lifting" value = "5"/> I cannot lift or carry anything at all</div>
-          </div>
-
-          <div class = "question">
-            <div class = "activity">4. Walking</div>
-            <div class = "answer"><input type="radio" id="" name="walking" value = "0"/> Pain does not prevent me walking any distance</div>
-            <div class = "answer"><input type="radio" id="" name="walking" value = "1"/> Pain prevents me from walking more than 1 mile</div>
-            <div class = "answer"><input type="radio" id="" name="walking" value = "2"/> Pain prevents me from walking more than 1/2 mile</div>
-            <div class = "answer"><input type="radio" id="" name="walking" value = "3"/> Pain prevents me from walking more than 100 yards</div>
-            <div class = "answer"><input type="radio" id="" name="walking" value = "4"/> I can only walk using a stick or crutches</div>
-            <div class = "answer"><input type="radio" id="" name="walking" value = "5"/> I am in bed most of the time</div>
-          </div>
-
-          <div class = "question">
-            <div class = "activity">5. Sitting</div>
-            <div class = "answer"><input type="radio" id="" name="sitting" value = "0"/> I can sit in any chair as long as I like</div>
-            <div class = "answer"><input type="radio" id="" name="sitting" value = "1"/> I can only sit in my favorite chair as long as I like</div>
-            <div class = "answer"><input type="radio" id="" name="sitting" value = "2"/> Pain prevents me sitting more than one hour</div>
-            <div class = "answer"><input type="radio" id="" name="sitting" value = "3"/> Pain prevents me from sitting more than 30 minutes</div>
-            <div class = "answer"><input type="radio" id="" name="sitting" value = "4"/> Pain prevents me from sitting more than 10 minutes</div>
-            <div class = "answer"><input type="radio" id="" name="sitting" value = "5"/> Pain prevents me from sitting at all</div>
-          </div>
-        </div>
-
-      <div class="col-lg">
-        <div class = "question">
-          <div class = "activity">6. Standing</div>
-          <div class = "answer"><input type="radio" id="" name="standing" value = "0"/> I can stand as long as I want without extra pain</div>
-          <div class = "answer"><input type="radio" id="" name="standing" value = "1"/> I can stand as long as I want but it gives me extra pain</div>
-          <div class = "answer"><input type="radio" id="" name="standing" value = "2"/> Pain prevents me from standing more than an hour</div>
-          <div class = "answer"><input type="radio" id="" name="standing" value = "3"/> Pain prevents me from standing more than 30 minutes</div>
-          <div class = "answer"><input type="radio" id="" name="standing" value = "4"/> Pain prevents me from standing more than 10 minutes</div>
-          <div class = "answer"><input type="radio" id="" name="standing" value = "5"/> Pain prevents me from standing at all</div>
-        </div>
-
-        <div class = "question">
-          <div class = "activity">7. Sleeping</div>
-          <div class = "answer"><input type="radio" id="" name="sleeping" value = "0"/> My sleep is never disturbed by pain</div>
-          <div class = "answer"><input type="radio" id="" name="sleeping" value = "1"/> My sleep is occasionally disturbed by pain</div>
-          <div class = "answer"><input type="radio" id="" name="sleeping" value = "2"/> Because of pain I have less than 6 hours sleep</div>
-          <div class = "answer"><input type="radio" id="" name="sleeping" value = "3"/> Because of pain I have less than hours sleep</div>
-          <div class = "answer"><input type="radio" id="" name="sleeping" value = "4"/> Because of pain I have less than 2 hours sleep</div>
-          <div class = "answer"><input type="radio" id="" name="sleeping" value = "5"/> Pain prevents me from sleeping at all</div>
-        </div>
-
-        <div class = "question">
-          <div class = "activity">8. Sex life (if applicable)</div>
-          <div class = "answer"><input type="radio" id="" name="sex_life" value = "0"/> My sex life is normal and causes no extra pain</div>
-          <div class = "answer"><input type="radio" id="" name="sex_life" value = "1"/> My sex life is normal but causes some extra pain</div>
-          <div class = "answer"><input type="radio" id="" name="sex_life" value = "2"/> My sex life is nearly normal but is very painful</div>
-          <div class = "answer"><input type="radio" id="" name="sex_life" value = "3"/> My sex life is severely restricted by pain</div>
-          <div class = "answer"><input type="radio" id="" name="sex_life" value = "4"/> My sex life is nearly absent because of pain</div>
-          <div class = "answer"><input type="radio" id="" name="sex_life" value = "5"/> Pain prevents any sex life at all</div>
-        </div>
-
-        <div class = "question">
-          <div class = "activity">9. Social Life</div>
-          <div class = "answer"><input type="radio" id="" name="social_life" value = "0"/> My social life is normal and gives me no extra pain</div>
-          <div class = "answer"><input type="radio" id="" name="social_life" value = "1"/> My social life is normal but increases the degree of pain</div>
-          <div class = "answer"><input type="radio" id="" name="social_life" value = "2"/> Pain has no significant effect on my social life apart from limiting my more energetic interests eg, sport</div>
-          <div class = "answer"><input type="radio" id="" name="social_life" value = "3"/> Pain has restricted my social life and I do not go out as often</div>
-          <div class = "answer"><input type="radio" id="" name="social_life" value = "4"/> Pain has restricted my social life to my home</div>
-          <div class = "answer"><input type="radio" id="" name="social_life" value = "5"/> I have no social life because of pain</div>
-        </div>
-
-        <div class = "question">
-          <div class = "activity">10. Traveling</div>
-          <div class = "answer"><input type="radio" id="" name="traveling" value = "0"/> I can travel anywhere without pain</div>
-          <div class = "answer"><input type="radio" id="" name="traveling" value = "1"/> I can travel anywhere but it gives me extra pain</div>
-          <div class = "answer"><input type="radio" id="" name="traveling" value = "2"/> Pain is bad but I manage journeys over two hours</div>
-          <div class = "answer"><input type="radio" id="" name="traveling" value = "3"/> Pain restricts me to journeys of less than one hour</div>
-          <div class = "answer"><input type="radio" id="" name="traveling" value = "4"/> Pain restricts me to short necessary journeys under 30 minutes</div>
-          <div class = "answer"><input type="radio" id="" name="traveling" value = "5"/> Pain prevents me from traveling except to receive treatment</div>
-        </div>
+      <div class = "row" id = "title">
+          <h1>Oswestry Disability Index (ODI)</h1>
       </div>
 
-    </div>
+      <div class="row instructions">
+        <h3>Instructions</h3>
+        <p>
+          This questionnaire has been designed to give us information
+          as to how your back or leg pain is affecting your ability to
+          manage in everyday life. Please answer by checking ONE box in
+          each section for the statement which best applies to you.
+          We realise you may consider that two or more statements in any
+          one section apply but please just shade out the spot that indicates
+          the statement which most clearly describes your problem.
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="question" data-toggle="buttons">
+              <h4>1. Pain Intensity</h4>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="pain" value = "0"/> I have no pain at the moment
+              </label><br>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="pain" value = "1"/> The pain is very mild at the moment
+              </label><br>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="pain" value = "2"/> The pain is moderate at the moment
+              </label><br>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="pain" value = "3"/> The pain is fairly severe at the moment
+              </label><br>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="pain" value = "4"/> The pain is very severe at the moment
+              </label><br>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="pain" value = "5"/> The pain is the worst imaginable at the moment
+              </label>
+            </div>
+
+            <div class = "question" data-toggle="buttons">
+              <h4>2. Personal Care (washing, dressing etc)</h4>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="personal_care" value = "0"/> I can look after myself normally without causing extra pain
+              </label><br>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="personal_care" value = "1"/> I can look after myself normally but it causes extra pain
+              </label><br>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="personal_care" value = "2"/> It is painful to look after myself and I am slow and careful
+              </label><br>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="personal_care" value = "3"/> I need some help but manage most of my personal care
+              </label><br>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="personal_care" value = "4"/> I need help every day in most aspects of self-care
+              </label><br>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="personal_care" value = "5"/> I do not get dressed, I wash with difficulty and stay in bed
+              </label>
+
+            </div>
+
+            <div class="question" data-toggle="buttons">
+
+              <h4>3. Lifting</h4>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="lifting" value = "0"/> I can lift heavy weights without extra pain
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="lifting" value = "1"/> I can lift heavy weights but it gives extra pain
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="lifting" value = "2"/> Pain prevents me from lifting heavy weights off the floor, but I can manage if they are conveniently placed eg. on a table
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="lifting" value = "3"/> Pain prevents me from lifting heavy weights, but I can manage light to medium weights if they are conveniently positioned
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="lifting" value = "4"/> I can lift very light weights
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="lifting" value = "5"/> I cannot lift or carry anything at all
+              </label>
+
+            </div>
+
+            <div class="question" data-toggle="buttons">
+              <h4>4. Walking</h4>
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="walking" value = "0"/> Pain does not prevent me walking any distance
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="walking" value = "1"/> Pain prevents me from walking more than 1 mile
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="walking" value = "2"/> Pain prevents me from walking more than 1/2 mile
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="walking" value = "3"/> Pain prevents me from walking more than 100 yards
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="walking" value = "4"/> I can only walk using a stick or crutches
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="walking" value = "5"/> I am in bed most of the time
+              </label>
+            </div>
+
+            <div class = "question" data-toggle="buttons">
+
+            <h4>5. Sitting</h4>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sitting" value = "0"/> I can sit in any chair as long as I like
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sitting" value = "1"/> I can only sit in my favorite chair as long as I like
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sitting" value = "2"/> Pain prevents me sitting more than one hour
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sitting" value = "3"/> Pain prevents me from sitting more than 30 minutes
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sitting" value = "4"/> Pain prevents me from sitting more than 10 minutes
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sitting" value = "5"/> Pain prevents me from sitting at all
+              </label>
+            </div>
+
+            <div class = "question" data-toggle="buttons">
+              <h4>6. Standing</h4>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="standing" value = "0"/> I can stand as long as I want without extra pain
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="standing" value = "1"/> I can stand as long as I want but it gives me extra pain
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="standing" value = "2"/> Pain prevents me from standing more than an hour
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="standing" value = "3"/> Pain prevents me from standing more than 30 minutes
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="standing" value = "4"/> Pain prevents me from standing more than 10 minutes
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="standing" value = "5"/> Pain prevents me from standing at all
+              </label>
+            </div>
+
+            <div class = "question" data-toggle="buttons">
+
+              <h4>7. Sleeping</h4>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sleeping" value = "0"/> My sleep is never disturbed by pain
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sleeping" value = "1"/> My sleep is occasionally disturbed by pain
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sleeping" value = "2"/> Because of pain I have less than 6 hours sleep
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sleeping" value = "3"/> Because of pain I have less than hours sleep
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sleeping" value = "4"/> Because of pain I have less than 2 hours sleep
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sleeping" value = "5"/> Pain prevents me from sleeping at all
+              </label>
+            </div>
+
+            <div class = "question" data-toggle="buttons">
+
+              <h4>8. Sex life (if applicable)</h4>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sex_life" value = "0"/> My sex life is normal and causes no extra pain
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sex_life" value = "1"/> My sex life is normal but causes some extra pain
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sex_life" value = "2"/> My sex life is nearly normal but is very painful
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sex_life" value = "3"/> My sex life is severely restricted by pain
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sex_life" value = "4"/> My sex life is nearly absent because of pain
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="sex_life" value = "5"/> Pain prevents any sex life at all
+              </label>
+            </div>
+
+            <div class = "question" data-toggle="buttons">
+
+              <h4>9. Social Life</h4>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="social_life" value = "0"/> My social life is normal and gives me no extra pain
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="social_life" value = "1"/> My social life is normal but increases the degree of pain
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="social_life" value = "2"/> Pain has no significant effect on my social life apart from limiting my more energetic interests eg, sport
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="social_life" value = "3"/> Pain has restricted my social life and I do not go out as often
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="social_life" value = "4"/> Pain has restricted my social life to my home
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="social_life" value = "5"/> I have no social life because of pain
+              </label>
+            </div>
+
+            <div class = "question" data-toggle="buttons">
+
+              <h4>10. Traveling</h4>
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="traveling" value = "0"/> I can travel anywhere without pain
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="traveling" value = "1"/> I can travel anywhere but it gives me extra pain
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="traveling" value = "2"/> Pain is bad but I manage journeys over two hours
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="traveling" value = "3"/> Pain restricts me to journeys of less than one hour
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="traveling" value = "4"/> Pain restricts me to short necessary journeys under 30 minutes
+              </label>
+
+              <label class="btn btn-outline-secondary">
+                <input type="radio" autocomplete="off" name="traveling" value = "5"/> Pain prevents me from traveling except to receive treatment
+              </label>
+            </div>
+
+
+            <div class= "row">
+                <div class="col-lg">
+                    <button id = "calculate" class = "btn btn-primary">Get Score</button>
+                    <div>
+                        <p id= "result">Your score</p>
+                    </div>
+                </div>
+
+                <div class="col-lg">
+                    <form method="GET" action="paper_copies/odi.pdf" target="_blank">
+                        <button id ="get_form_button" class = "btn btn-primary float-end" type="submit">Get Paper Copy!</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- End questionnaire -->
+
+        <div class="col-2"></div>
+
+      </div>
+
+      <!-- end big container -->
+
+
+
+
+
+
+
 
 
     <div class = "container" id = "footer">
-        <div class= "row">
-            <div class="col-lg">
-                <button id = "calculate" class = "btn btn-primary" >Get Score</button>
-                <div>
-                    <p id= "result">Your score</p>
-                </div>
-            </div>
 
-            <div class="col-lg">
-                <form method="GET" action="paper_copies/odi.pdf" target="_blank">
-                    <button id ="get_form_button" class = "btn btn-primary" type="submit">Get Paper Copy!</button>
-                </form>
-            </div>
-
-        </div>
     </div>
 
 

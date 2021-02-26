@@ -10,6 +10,9 @@
     text-align: center;
 }
 
+.btn-group label {
+  font-weight: bold;
+}
 
 .activity, .answer {
   font-size: 1.25em;
