@@ -2,28 +2,18 @@
     text-align: center;
 }
 
-.question .activity {
+.question {
     margin-top: 30px;
-    background-color: darkgrey;
-    font-weight: bold;
+
 }
 
 #title {
     text-align: center;
 }
 
-/* .answer {
-    text-align: center;
-} */
-
-/* [type='radio'] {
-    display: none;
-} */
-
-/* #adl_header {
-    background-color: darkgrey;
-    text-align: center;
-} */
+[type='radio'] {
+  display: None;
+}
 
 #footer {
     padding-top: 30px;

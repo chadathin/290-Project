@@ -10,8 +10,8 @@ let get_value = function(radio_name) {
 }
 
 document.addEventListener("DOMContentLoaded", function(){
-    
-    let input_items = [ 
+
+    let input_items = [
     "standing",
     "walking_even",
     "walking_even_no_shoes",
@@ -53,9 +53,9 @@ document.addEventListener("DOMContentLoaded", function(){
             result.textContent = "You may only skip one activity.";
         } else {
             let final = Math.round((total/(count*4)*100),2)
-            result.textContent = final;
+            result.textContent = final + "% functional.";
         }
-        
+
     });
-    
+
 })
