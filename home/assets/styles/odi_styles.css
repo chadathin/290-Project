@@ -8,6 +8,10 @@
   text-align: center;
 }
 
+input[type="radio"] {
+  transform: scale(1.25);
+}
+
 .activity, .question, .instructions {
   font-size: 1.2em;
   padding-left: 10px;

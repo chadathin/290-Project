@@ -13,12 +13,32 @@ a {
   text-align: center;
 }
 
-h1 {
+#testimonials {
+  text-align: center;
+
+
+}
+
+/* #myCarousel {
+  vertical-align: center;
+  border: black solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+h1, h3 {
   margin: 0 auto;
+}
+
+.indicator {
+  color: black;
 }
 
 .middle-header {
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /* .carousel-item img {
