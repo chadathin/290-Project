@@ -1,5 +1,4 @@
 .activity {
-  /* margin-top:9px; */
   background-color: gray;
   color: white;
 }
@@ -7,10 +6,6 @@
 #title {
   text-align: center;
 }
-
-/* input[type="radio"] {
-  transform: scale(1.25);
-} */
 
 #footer {
   margin-top: 30px;
@@ -43,9 +38,3 @@ label {
 #get_form_button {
   margin-bottom: 30px;
 }
-
-/* .activity, .question, .instructions {
-  font-size: 1.2em;
-  padding-left: 10px;
-  margin-top: 20px;
-} */

@@ -8,6 +8,11 @@ let get_value = function(radio_name) {
     return null
 }
 
+document.getElementById("get_form_button").addEventListener("click", function(event){
+  window.open('/ODI_download');
+  event.preventDefault();
+});
+
 document.addEventListener("DOMContentLoaded", function(){
 
     let input_items = [

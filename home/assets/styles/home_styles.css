@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-a {
+.carousel a {
   color: white;
 }
 
@@ -19,13 +19,6 @@ a {
 
 }
 
-/* #myCarousel {
-  vertical-align: center;
-  border: black solid 1px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 h1, h3 {
   margin: 0 auto;

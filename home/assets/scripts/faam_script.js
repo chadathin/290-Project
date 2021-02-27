@@ -9,6 +9,11 @@ let get_value = function(radio_name) {
     return null
 }
 
+document.getElementById("download_btn").addEventListener("click", function(event){
+  window.open('/FAAM_download');
+  event.preventDefault();
+});
+
 document.addEventListener("DOMContentLoaded", function(){
 
     let input_items = [

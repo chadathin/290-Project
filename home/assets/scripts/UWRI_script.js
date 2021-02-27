@@ -9,9 +9,15 @@ let get_value = function(radio_name) {
     return null
 }
 
+document.getElementById('download_btn').addEventListener('click', function(event){
+  window.open('/UWRI_download');
+  event.preventDefault();
+});
+
+
 document.addEventListener("DOMContentLoaded", function(){
-    
-    let input_items = [ 
+
+    let input_items = [
     "adls",
     "frustrated",
     "recovery",
@@ -43,8 +49,8 @@ document.addEventListener("DOMContentLoaded", function(){
         } else {
             result.textContent = total+ "/36";
         }
-        
+
     });
 
-    
+
 })
