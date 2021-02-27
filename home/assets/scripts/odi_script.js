@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function(){
             result.textContent = "You may only skip one activity.";
         } else {
             let final = Math.round((total/(count*5)*100),2)
-            result.textContent = final;
+            result.textContent = final + "% impairment.";
         }
 
     });
